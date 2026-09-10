@@ -10,6 +10,9 @@ public class App {
      System.out.println("Masukan Bilangan ");
      bilangan=sc.nextInt();
 
+
+     
+
      if((bilangan%2)==0)
         {
             System.out.println("Bilangan genap");
@@ -18,8 +21,9 @@ public class App {
     else
         {
             System.out.println("Bilangan Ganjil");
-            System.out.println("Akhir dari kode");
+            
         }
+        System.out.println("Akhir dari kode");
 
         
     
